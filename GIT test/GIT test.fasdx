@@ -1,0 +1,252 @@
+{
+  "slnName": "GIT test",
+  "slnIdentity": "48245071-512f-4e25-9d76-821a9a9c464a",
+  "slnType": "Solution",
+  "softwareVersionNo": "V1.5.3.2",
+  "addinVersionNo": "1.0.0.0",
+  "dataVersionNo": "1.0.0.0",
+  "devices": [
+    {
+      "name": "PLC_1",
+      "type": "Platform_Device",
+      "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+      "deviceAdditionData": {}
+    }
+  ],
+  "slnStructure": {
+    "name": "GIT test",
+    "businessId": 1,
+    "deviceName": "",
+    "type": "Platform_Solution",
+    "path": "GIT test",
+    "subItems": [
+      {
+        "name": "NetworkSetting",
+        "businessId": 1,
+        "deviceName": "",
+        "deviceMd5Code": "",
+        "type": "Platform_Configuration",
+        "path": "GIT test\\NetworkSetting",
+        "mappingFilePath": "GIT test\\NetworkSetting.bin",
+        "subItems": []
+      },
+      {
+        "name": "PLC_1",
+        "businessId": 2,
+        "deviceName": "PLC_1",
+        "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+        "deviceAdditionData": {},
+        "type": "Logic_Device",
+        "path": "GIT test\\PLC_1",
+        "mappingFilePath": "GIT test\\PLC_1\\PLC_1.bin",
+        "subItems": [
+          {
+            "name": "LibraryReference",
+            "businessId": 2,
+            "deviceName": "PLC_1",
+            "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+            "deviceAdditionData": {},
+            "type": "Logic_Libraries",
+            "path": "GIT test\\PLC_1\\LibraryReference",
+            "mappingFilePath": "GIT test\\PLC_1\\LibraryReference.xml",
+            "subItems": []
+          },
+          {
+            "name": "Programs",
+            "businessId": 2,
+            "deviceName": "PLC_1",
+            "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+            "deviceAdditionData": {},
+            "type": "Logic_ProgramManager",
+            "path": "GIT test\\PLC_1\\Programs",
+            "subItems": [
+              {
+                "name": "DefaultVariableTable",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_GV",
+                "path": "GIT test\\PLC_1\\Programs\\DefaultVariableTable",
+                "mappingFilePath": "GIT test\\PLC_1\\Programs\\DefaultVariableTable.st",
+                "subItems": []
+              },
+              {
+                "name": "Main",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_PRG",
+                "path": "GIT test\\PLC_1\\Programs\\Main",
+                "mappingFilePath": "GIT test\\PLC_1\\Programs\\Main.st",
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "name": "Tasks",
+            "businessId": 2,
+            "deviceName": "PLC_1",
+            "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+            "deviceAdditionData": {},
+            "type": "Logic_TaskManager",
+            "path": "GIT test\\PLC_1\\Tasks",
+            "subItems": [
+              {
+                "name": "MainTask",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Task",
+                "path": "GIT test\\PLC_1\\Tasks\\MainTask",
+                "mappingFilePath": "GIT test\\PLC_1\\Tasks\\MainTask.xml",
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "name": "Controls",
+            "businessId": 2,
+            "deviceName": "PLC_1",
+            "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+            "deviceAdditionData": {},
+            "type": "Logic_MotionManager",
+            "path": "GIT test\\PLC_1\\Controls",
+            "subItems": [
+              {
+                "name": "Cams",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_CAMManager",
+                "path": "GIT test\\PLC_1\\Controls\\Cams",
+                "subItems": []
+              },
+              {
+                "name": "Axises",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_AxisManager",
+                "path": "GIT test\\PLC_1\\Controls\\Axises",
+                "subItems": []
+              },
+              {
+                "name": "AxisGroups",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_AxisGroupManager",
+                "path": "GIT test\\PLC_1\\Controls\\AxisGroups",
+                "subItems": []
+              },
+              {
+                "name": "PIDs",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_PIDManager",
+                "path": "GIT test\\PLC_1\\Controls\\PIDs",
+                "subItems": []
+              }
+            ]
+          },
+          {
+            "name": "Hardwares",
+            "businessId": 2,
+            "deviceName": "PLC_1",
+            "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+            "deviceAdditionData": {},
+            "type": "Logic_HardwareConfig",
+            "path": "GIT test\\PLC_1\\Hardwares",
+            "subItems": [
+              {
+                "name": "Inovance_Bus",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_LocalBus",
+                "path": "GIT test\\PLC_1\\Hardwares\\Inovance_Bus",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\Inovance_Bus.xml",
+                "subItems": []
+              },
+              {
+                "name": "COM",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_COM",
+                "path": "GIT test\\PLC_1\\Hardwares\\COM",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\COM.xml",
+                "subItems": []
+              },
+              {
+                "name": "LAN1",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_EtherNet",
+                "path": "GIT test\\PLC_1\\Hardwares\\LAN1",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\LAN1.xml",
+                "subItems": []
+              },
+              {
+                "name": "EtherCAT",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_EtherCAT",
+                "path": "GIT test\\PLC_1\\Hardwares\\EtherCAT",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\EtherCAT.xml",
+                "subItems": []
+              },
+              {
+                "name": "EXPA",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_Extension",
+                "path": "GIT test\\PLC_1\\Hardwares\\EXPA",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\EXPA.xml",
+                "subItems": []
+              },
+              {
+                "name": "EXPB",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_Extension",
+                "path": "GIT test\\PLC_1\\Hardwares\\EXPB",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\EXPB.xml",
+                "subItems": []
+              },
+              {
+                "name": "High_Speed_IO_Module",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_Port_HighSpeedIO",
+                "path": "GIT test\\PLC_1\\Hardwares\\High_Speed_IO_Module",
+                "mappingFilePath": "GIT test\\PLC_1\\Hardwares\\High_Speed_IO_Module.xml",
+                "subItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

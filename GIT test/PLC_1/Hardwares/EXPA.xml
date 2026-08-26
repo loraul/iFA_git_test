@@ -1,0 +1,11 @@
+<!--NodeCRC64:7843998932359234209, FileCRC64:13333617145755044684-->
+<device name="EXPA">
+    <deviceIdentification>d16d6bf4b764de1c79436f4706dff3c8</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>
