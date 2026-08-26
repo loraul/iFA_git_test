@@ -5,6 +5,7 @@
             <variable name="M1" type="BOOL" />
             <variable name="M2" type="BOOL" />
             <variable name="M3" type="BOOL" />
+            <variable name="M4" type="BOOL" />
         </localVars>
     </interface>
     <body>
