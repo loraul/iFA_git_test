@@ -1,6 +1,7 @@
-<!--NodeCRC64:14320321308796895417, FileCRC64:6261227092932021793-->
+<!--NodeCRC64:14403567162380457716, FileCRC64:877393610353782928-->
 <libraries>
     <library name="#IoStandard" namespace="IoStandard" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="True" defaultResolution="IoStandard, 1.0.0.0 (System)" />
+    <library name="#MotionControl" namespace="MotionControl" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="MotionControl, 2.5.0.0 (System)" />
     <library name="#RecipeManagement" namespace="RecipeManagement" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="RecipeManagement, 2.0.0.0 (system)" />
     <library name="#Standard" namespace="Standard" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="Standard, 1.4.0.0 (System)" />
     <library name="#SysLib" namespace="SysLib" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="SysLib, 1.3.0.0 (System)" />

@@ -144,7 +144,19 @@
                 "deviceAdditionData": {},
                 "type": "Logic_AxisManager",
                 "path": "GIT test\\PLC_1\\Controls\\Axises",
-                "subItems": []
+                "subItems": [
+                  {
+                    "name": "Axis",
+                    "businessId": 2,
+                    "deviceName": "PLC_1",
+                    "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                    "deviceAdditionData": {},
+                    "type": "Logic_Axis",
+                    "path": "GIT test\\PLC_1\\Controls\\Axises\\Axis",
+                    "mappingFilePath": "GIT test\\PLC_1\\Controls\\Axises\\Axis.bin",
+                    "subItems": []
+                  }
+                ]
               },
               {
                 "name": "AxisGroups",
