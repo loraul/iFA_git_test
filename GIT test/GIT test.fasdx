@@ -72,6 +72,17 @@
                 "subItems": []
               },
               {
+                "name": "LADDER_Example",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {},
+                "type": "Logic_PRG",
+                "path": "GIT test\\PLC_1\\Programs\\LADDER_Example",
+                "mappingFilePath": "GIT test\\PLC_1\\Programs\\LADDER_Example.xml",
+                "subItems": []
+              },
+              {
                 "name": "Main",
                 "businessId": 2,
                 "deviceName": "PLC_1",

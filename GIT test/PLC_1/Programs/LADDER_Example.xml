@@ -1,0 +1,97 @@
+<!--NodeCRC64:13131641476722539497, FileCRC64:11105728446555799120-->
+<program name="LADDER_Example">
+    <interface>
+        <localVars>
+            <variable name="M1" type="BOOL" />
+            <variable name="M2" type="BOOL" />
+            <variable name="M3" type="BOOL" />
+        </localVars>
+    </interface>
+    <body>
+        <LD>
+            <leftPowerRail localId="0">
+                <position x="0" y="0" />
+                <connectionPointOut formalParameter="none" />
+            </leftPowerRail>
+            <comment localId="1" height="0" width="0">
+                <position x="0" y="0" />
+                <content>
+                    <xhtml>Network comment</xhtml>
+                </content>
+            </comment>
+            <vendorElement localId="2">
+                <position x="0" y="0" />
+                <alternativeText>
+                    <xhtml />
+                </alternativeText>
+                <addData>
+                    <data name="http://www.inovance.com/plcopenxml/fbdelementtype" handleUnknown="implementation">
+                        <ElementType>networktitle</ElementType>
+                    </data>
+                    <data name="http://www.inovance.com/plcopenxml/generatedby" handleUnknown="implementation">
+                        <GeneratedBy>iFA</GeneratedBy>
+                    </data>
+                </addData>
+            </vendorElement>
+            <contact localId="4">
+                <position x="0" y="0" />
+                <connectionPointIn>
+                    <connection refLocalId="0" />
+                </connectionPointIn>
+                <variable>M1</variable>
+            </contact>
+            <contact localId="5" negated="true">
+                <position x="0" y="0" />
+                <connectionPointIn>
+                    <connection refLocalId="0" />
+                </connectionPointIn>
+                <variable>M3</variable>
+            </contact>
+            <vendorElement localId="3">
+                <position x="0" y="0" />
+                <alternativeText>
+                    <xhtml>ParallelBranch</xhtml>
+                </alternativeText>
+                <addData>
+                    <data name="http://www.inovance.com/plcopenxml/ldparallelbranch" handleUnknown="implementation">
+                        <ParallelBranch mode="seq">
+                            <BranchInput>
+                                <connectionPointIn>
+                                    <connection refLocalId="0" />
+                                </connectionPointIn>
+                            </BranchInput>
+                            <BranchTrees>
+                                <Tree>
+                                    <connectionPointIn>
+                                        <connection refLocalId="4" />
+                                    </connectionPointIn>
+                                </Tree>
+                                <Tree>
+                                    <connectionPointIn>
+                                        <connection refLocalId="5" />
+                                    </connectionPointIn>
+                                </Tree>
+                            </BranchTrees>
+                        </ParallelBranch>
+                    </data>
+                    <data name="http://www.inovance.com/plcopenxml/fbdelementtype" handleUnknown="implementation">
+                        <ElementType>seq</ElementType>
+                    </data>
+                </addData>
+            </vendorElement>
+            <coil localId="6">
+                <position x="0" y="0" />
+                <connectionPointIn>
+                    <connection refLocalId="4" />
+                    <connection refLocalId="5" />
+                </connectionPointIn>
+                <connectionPointOut />
+                <variable>M2</variable>
+            </coil>
+            <rightPowerRail localId="2147483647">
+                <position x="0" y="0" />
+                <connectionPointIn />
+            </rightPowerRail>
+        </LD>
+    </body>
+</program>
