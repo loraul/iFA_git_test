@@ -1,0 +1,42 @@
+<!--NodeCRC64:5558895042834392175, FileCRC64:10379169019227825642-->
+<device name="Inovance_Bus">
+    <deviceIdentification>26ef59c45d7530ffcc264254d7ae26b4</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="144115188075856872" name="Input Mappings Num" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856873" name="Module Status" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113784808" name="Input Mappings Num" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="216172782113784809" name="Module Status" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788808" name="Output Mappings Num" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="216172782113788809" name="Manual Confirmation Bits" description="Manual confirmation operation, high pulse is effective, and the pulse width must be maintained between 1s to 10s" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

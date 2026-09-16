@@ -1,0 +1,293 @@
+<!--NodeCRC64:2367959596004606007, FileCRC64:7567252675641493195-->
+<device name="EtherCAT_Master1">
+    <deviceIdentification>b85fd56dd850cf2b152250ecdef8d63f</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask>
+        <id>10</id>
+        <taskName>EtherCAT_Master1_Task</taskName>
+    </busTask>
+    <parameters>
+        <parameter id="720575940379280360" name="IsClearSlaveInputDataWhenDisconnect" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575940379348992" name="TaskName" description="">
+            <value>
+                <simpleValue value="'EtherCAT_Master1_Task'" />
+            </value>
+        </parameter>
+        <parameter id="720575940496721544" name="WireLessIdentification" description="">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941184585728" name="Autoconfig" description="Automatic configuration">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="720575941184606208" name="MasterCycleTime" description="Master Cycle Time">
+            <value>
+                <simpleValue value="4000" />
+            </value>
+        </parameter>
+        <parameter id="720575941184651264" name="MasterUseLRW" description="Master uses LRW command">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941184671744" name="SlaveAutorestart" description="Slave restarts automatically">
+            <value>
+                <simpleValue value="True" />
+            </value>
+        </parameter>
+        <parameter id="720575941184672000" name="Keep last input data" description="Keep last input data">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184716800" name="SlaveCheckMode" description="Mode for vendor product check">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941184720896" name="ManualOpenClosePort" description="Open and close port manually">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941184737280" name="NetworkName" description="Name of the network card">
+            <value>
+                <simpleValue value="'eth1'" />
+            </value>
+        </parameter>
+        <parameter id="720575941184737281" name="NetworkName" description="Name of the network card">
+            <value>
+                <simpleValue value="&quot;&quot;" />
+            </value>
+        </parameter>
+        <parameter id="720575941184737536" name="SelectNetworkByName" description="Select network by name">
+            <value>
+                <simpleValue value="True" />
+            </value>
+        </parameter>
+        <parameter id="720575941184737792" name="EnableTaskMessage" description="Enable transmission per task">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738048" name="DisableTaskGeneration" description="Disable automatic task generation">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738304" name="FrameAtTaskStart" description="Send frame at task cycle start">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738320" name="WaitForPacket" description="Wait for packets in the same cycle/ FrameAtTaskStart must be also set">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738560" name="ScanForAliasAddress" description="Enables scan for alias address">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738640" name="DCSyncInWindow" description="sync window for xDistributedClockInSync">
+            <value>
+                <simpleValue value="50" />
+            </value>
+        </parameter>
+        <parameter id="720575941184738816" name="SyncOffset" description="Master synchronisation offset">
+            <value>
+                <simpleValue value="30" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739072" name="SyncWindowMonitoring" description="Slave sync window monitoring">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739073" name="DCMode" description="Mode for distributed clock" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739088" name="MaxSyncWindowDeviation" description="Max Sync Window Deviation">
+            <value />
+        </parameter>
+        <parameter id="720575941184739328" name="CustomENIExport" description="Export ENI file with custom settings" download="false">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739329" name="IgnoreManualAddress" description="Ignore manual address settings in the ENI export" download="false">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739344" name="Enable sync units" description="Enable support for sync units">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739584" name="SlaveStartUpTime" description="Max time(ms) of every slave startup">
+            <value>
+                <simpleValue value="3000" />
+            </value>
+        </parameter>
+        <parameter id="720575941184739585" name="ProcessDataRecetionTimeOut" description="Process data reception timeout">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="720575941184782337" name="Clear Statistics" description="Clear Statistics">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184782338" name="Enable slave data link error statistics" description="Enable slave data link error statistics">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941184782339" name="Clear slave data link error" description="Clear slave data link error">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="720575941185634305" name="FrameRepeatCount" description="Frame Repeat Count">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941185634306" name="FrameRepeatCycleTime" description="Frame Repeat Cycle Time">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021186" name="NumberOfOutputSlaves" description="Number of Slaves with an Output">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021187" name="NumberOfInputSlaves" description="Number of Slaves with an Input">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021189" name="SrcAddress1" description="Two zero Bytes and the First Two Bytes of the Source Address">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021190" name="SrcAddress2" description="Lower 4 Bytes of the Source Address">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021191" name="DestAddress1" description="Two zero Bytes and the First Two Bytes of the Destination Address">
+            <value>
+                <simpleValue value="65535" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021192" name="DestAddress2" description="Lower 4 Bytes of the Destination Address">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021193" name="ImageOutAddress" description="Address of the Output">
+            <value>
+                <simpleValue value="33554432" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021194" name="ImageOutLength" description="Length of the Output">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021195" name="ImageInAddress" description="Address of the Input">
+            <value>
+                <simpleValue value="16777216" />
+            </value>
+        </parameter>
+        <parameter id="720575941453021196" name="ImageInLength" description="Length of the Input">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025280" name="EnableSecondAdapter" description="Enable second network adapter">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025285" name="SrcAddress" description="Source Address">
+            <value>
+                <simpleValue value="[16#00,16#00,16#00,16#00,16#00,16#00]" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025287" name="DestAddress" description="Destination Address">
+            <value>
+                <simpleValue value="[16#FF,16#FF,16#FF,16#FF,16#FF,16#FF]" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025289" name="NetworkName" description="Name of the network card">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025290" name="NetworkName" description="Name of the network card">
+            <value>
+                <simpleValue value="&quot;&quot;" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025291" name="SelectNetworkByName" description="Select network by name">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941453025292" name="EtherCAT_Master_PortId" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="720575941454135303" name="AliasEnabled" description="Alias Enabled">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941454135552" name="CheckConfiguration" description="Check Configuration">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941991006208" name="EoEEnabled" description="">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="720575941991006225" name="SubnetMask" description="">
+            <value>
+                <simpleValue value="[16#FF,16#FF,16#FF,16#00]" />
+            </value>
+        </parameter>
+        <parameter id="720575941991006226" name="GatewayAddress" description="">
+            <value>
+                <simpleValue value="[16#C0,16#A8,16#C6,16#01]" />
+            </value>
+        </parameter>
+        <parameter id="720575941991006240" name="EoEAccEnabled" description="">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

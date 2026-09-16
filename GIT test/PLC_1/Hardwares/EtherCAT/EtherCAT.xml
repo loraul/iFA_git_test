@@ -1,0 +1,11 @@
+<!--NodeCRC64:13632487775308421567, FileCRC64:11644383999867830557-->
+<device name="EtherCAT">
+    <deviceIdentification>3de962c43d92941a89500a29a143b850</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>

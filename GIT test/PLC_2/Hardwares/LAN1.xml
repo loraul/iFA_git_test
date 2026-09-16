@@ -1,0 +1,47 @@
+<!--NodeCRC64:2330506420268129928, FileCRC64:14599577883700257181-->
+<device name="LAN1">
+    <deviceIdentification>da0d2d7f02d07e22a74db9cf2417a43b</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="144115188075855972" name="PortId" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855973" name="PortName" description="">
+            <value>
+                <simpleValue value="'LAN1'" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855974" name="EtherNetIsUseConfigIp" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855975" name="IsExpandPort" description="">
+            <value>
+                <simpleValue value="False" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856872" name="EtherNetPortIP" description="" download="false">
+            <value>
+                <simpleValue value="[192, 168, 1, 88]" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856874" name="EtherNetSubnetMask" description="" download="false">
+            <value>
+                <simpleValue value="[255, 255, 255, 0]" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856875" name="EtherNetGateway" description="" download="false">
+            <value>
+                <simpleValue value="[192, 168, 1, 1]" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

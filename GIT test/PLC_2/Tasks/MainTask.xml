@@ -1,0 +1,7 @@
+<!--NodeCRC64:225965538064949451, FileCRC64:1214153087916758153-->
+<task name="MainTask" priority="1" isSystem="False" multiType="Default" masterTaskType="Default">
+    <pouInstance name="Main" typeName="Program" />
+    <taskSettings kindOfTask="Cyclic" interval="20" intervalUnit="ms">
+        <watchdog enabled="False" timeUnit="ms" time="0" sensitivity="1" />
+    </taskSettings>
+</task>

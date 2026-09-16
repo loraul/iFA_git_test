@@ -1,0 +1,11 @@
+<!--NodeCRC64:7390895808169611279, FileCRC64:14804079104786731780-->
+<device name="Inovance_Bus">
+    <deviceIdentification>90c4340121e6ebfd33abefc7c470f585</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>

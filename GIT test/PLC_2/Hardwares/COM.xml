@@ -1,0 +1,11 @@
+<!--NodeCRC64:11173059633143207989, FileCRC64:2557933502899043371-->
+<device name="COM">
+    <deviceIdentification>9ad8456932a3f1bf66c27d17d1bb52ae</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>

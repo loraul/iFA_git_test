@@ -1,0 +1,1403 @@
+<!--NodeCRC64:6806859407234329011, FileCRC64:3595931472521609754-->
+<device name="FSoE_noSRA">
+    <deviceIdentification>b8e595af1f2455661c54689a239a9731</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <slot>0</slot>
+        <Disabled>False</Disabled>
+        <ECATSlot>True</ECATSlot>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037997568" name="Is Safety" description="Is Safety" download="false">
+            <value>
+                <simpleValue value="True" />
+            </value>
+        </parameter>
+        <parameter id="72057595128446976" name="Module ident" description="">
+            <value>
+                <simpleValue value="16#00002001" />
+            </value>
+        </parameter>
+        <parameter id="72057595128446992" name="Module class" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="72057595380432896" name="Number of RxPDOs of the Slave" description="Number of RxPDOs of the Slave">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057595380563968" name="Number of TxPDOs of the Slave" description="Number of TxPDOs of the Slave">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="72057595916976128" name="RxTxPdo" description="">
+            <value>
+                <structValue>
+                    <value member="NumberofExcludes">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="NumberofEntries">
+                        <simpleValue value="19" />
+                    </value>
+                    <value member="Index">
+                        <simpleValue value="16#170A" />
+                    </value>
+                    <value member="Fixed">
+                        <simpleValue value="True" />
+                    </value>
+                    <value member="Mandatory">
+                        <simpleValue value="FALSE" />
+                    </value>
+                    <value member="Virtual">
+                        <simpleValue value="FALSE" />
+                    </value>
+                    <value member="Sm">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Su">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Name">
+                        <simpleValue value="'FSoE receive PDO Mapping'" />
+                    </value>
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                    <value member="OverwrittenByModule" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976130" name="FSoE Master Command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E700" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="8" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976131" name="STO command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6640" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976132" name="SS1 command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6650" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976133" name="SS2 command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6670" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976134" name="SOS command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6668" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976135" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#2000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976136" name="SDIp command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#66D0" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976137" name="SDIn command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#66D1" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976138" name="Error Ack" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6632" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976139" name="Restart Ack" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6630" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976140" name="SBC command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6660" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976141" name="SLS command1" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976142" name="SLS command2" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976143" name="SLS command3" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976144" name="SLS command4" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="4" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976145" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#2000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976146" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#2000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976147" name="FSoE Master CRC_0" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E700" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="16" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595916976148" name="FSoE Master ConnectionID" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E700" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="16" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303808" name="RxTxPdo" description="">
+            <value>
+                <structValue>
+                    <value member="NumberofExcludes">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="NumberofEntries">
+                        <simpleValue value="19" />
+                    </value>
+                    <value member="Index">
+                        <simpleValue value="16#1B0A" />
+                    </value>
+                    <value member="Fixed">
+                        <simpleValue value="True" />
+                    </value>
+                    <value member="Mandatory">
+                        <simpleValue value="FALSE" />
+                    </value>
+                    <value member="Virtual">
+                        <simpleValue value="FALSE" />
+                    </value>
+                    <value member="Sm">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Su">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Name">
+                        <simpleValue value="'FSoE transmit PDO Mapping'" />
+                    </value>
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                    <value member="OverwrittenByModule" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303810" name="FSoE Slave Command" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E600" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="8" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303811" name="STO Active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6640" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303812" name="SSM status" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#66E0" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303813" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#3000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303814" name="SOS active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6668" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303815" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#3000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303816" name="SDIp active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#66D0" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303817" name="SDIn active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#66D1" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303818" name="Error" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6632" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303819" name="Restart" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6630" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303820" name="SBC active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6660" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303821" name="SLS command1 active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303822" name="SLS command2 active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303823" name="SLS command3 active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303824" name="SLS command4 active" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#6690" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="4" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303825" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#3000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303826" name="Reserved" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#3000" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="4" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303827" name="FSoE Slave CRC_0" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E600" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="3" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="16" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595917303828" name="FSoE Slave Connection ID" description="">
+            <value>
+                <structValue>
+                    <value member="Index">
+                        <simpleValue value="16#E600" />
+                    </value>
+                    <value member="SubIndex">
+                        <simpleValue value="2" />
+                    </value>
+                    <value member="Size">
+                        <simpleValue value="16" />
+                    </value>
+                    <value member="Offset" />
+                    <value member="DependOnSlot" />
+                    <value member="DependOnSlotGroup" />
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024706" name="FSoE Master Command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Master Command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'USINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024707" name="STO command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'STO command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024708" name="SS1 command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SS1 command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024709" name="SS2 command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SS2 command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024710" name="SOS command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SOS command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024711" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024712" name="SDIp command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SDIp command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024713" name="SDIn command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SDIn command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024714" name="Error Ack" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Error Ack'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024715" name="Restart Ack" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Restart Ack'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024716" name="SBC command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SBC command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024717" name="SLS command1" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command1'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024718" name="SLS command2" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command2'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024719" name="SLS command3" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command3'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024720" name="SLS command4" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command4'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024721" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024722" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024723" name="FSoE Master CRC_0" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Master CRC_0'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'UINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918024724" name="FSoE Master ConnectionID" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Master ConnectionID'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'UINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352386" name="FSoE Slave Command" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Slave Command'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'USINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352387" name="STO Active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'STO Active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352388" name="SSM status" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SSM status'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352389" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352390" name="SOS active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SOS active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352391" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352392" name="SDIp active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SDIp active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352393" name="SDIn active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SDIn active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352394" name="Error" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Error'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352395" name="Restart" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Restart'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352396" name="SBC active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SBC active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352397" name="SLS command1 active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command1 active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352398" name="SLS command2 active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command2 active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352399" name="SLS command3 active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command3 active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352400" name="SLS command4 active" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'SLS command4 active'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352401" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352402" name="Reserved" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'Reserved'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'BIT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352403" name="FSoE Slave CRC_0" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Slave CRC_0'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'UINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="72057595918352404" name="FSoE Slave Connection ID" description="" download="false">
+            <value>
+                <structValue>
+                    <value member="Name">
+                        <simpleValue value="'FSoE Slave Connection ID'" />
+                    </value>
+                    <value member="DataType">
+                        <simpleValue value="'UINT'" />
+                    </value>
+                    <value member="Default" />
+                    <value member="Comment">
+                        <simpleValue value="''" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

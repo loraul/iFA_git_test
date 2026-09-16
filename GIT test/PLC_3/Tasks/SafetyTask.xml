@@ -1,0 +1,7 @@
+<!--NodeCRC64:1711210699429105017, FileCRC64:4759869449002175947-->
+<task name="SafetyTask" priority="0" isSystem="False">
+    <pouInstance name="Main" typeName="Program" />
+    <taskSettings kindOfTask="Cyclic" interval="50" intervalUnit="ms">
+        <watchdog enabled="False" timeUnit="ms" time="0" sensitivity="1" />
+    </taskSettings>
+</task>

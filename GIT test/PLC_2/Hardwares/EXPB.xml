@@ -1,0 +1,11 @@
+<!--NodeCRC64:14656437011226162191, FileCRC64:5569563009360612788-->
+<device name="EXPB">
+    <deviceIdentification>3ba2d20a8df8fc0324d198431a6d98a1</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters />
+    <mappings />
+</device>

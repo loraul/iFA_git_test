@@ -1,0 +1,7 @@
+<!--NodeCRC64:15942583177516720979, FileCRC64:14292370550515770967-->
+<task name="EtherCAT_Master1_Task" priority="0" isSystem="True" multiType="Default" masterTaskType="EtherCat0">
+    <pouInstance name="EtherCAT_Task_0" typeName="System" />
+    <taskSettings kindOfTask="Cyclic" interval="4" intervalUnit="ms">
+        <watchdog enabled="False" timeUnit="ms" time="0" sensitivity="1" />
+    </taskSettings>
+</task>

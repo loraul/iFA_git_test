@@ -1,0 +1,83 @@
+<!--NodeCRC64:17257178797938428543, FileCRC64:4002107828166957917-->
+<device name="High_Speed_IO_Module">
+    <deviceIdentification>f48147590f0ab12ce0e7f15fcac26192</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask>
+        <id>2</id>
+        <taskName />
+    </busTask>
+    <parameters>
+        <parameter id="144115188075856872" name="InputChannelNumber" description="">
+            <value>
+                <simpleValue value="8" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856882" name="OrdinaryInputChannelFlag" description="">
+            <value>
+                <simpleValue value="255" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856922" name="FilteringTime" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856925" name="HFILTER_Time" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="144115188075856926" name="MFILTER_Time" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="144115188075857872" name="OutputChannelNumber" description="">
+            <value>
+                <simpleValue value="8" />
+            </value>
+        </parameter>
+        <parameter id="144115188075857882" name="OrdinaryOutputChannelFlag" description="">
+            <value>
+                <simpleValue value="255" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865872" name="PwmOutPutValue" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865882" name="PwmOutPutValue" description="">
+            <value>
+                <simpleValue value="1170" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865892" name="StopStatus" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865893" name="PreSetValue" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings>
+        <mapping id="144115188075860872" channel="IB(I)">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%IB0</address>
+            <description />
+            <subMappings />
+        </mapping>
+        <mapping id="144115188075861872" channel="QB(I)">
+            <userDefineAddress>False</userDefineAddress>
+            <address>%QB0</address>
+            <description />
+            <subMappings />
+        </mapping>
+    </mappings>
+</device>
