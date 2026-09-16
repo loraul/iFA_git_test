@@ -1,0 +1,16 @@
+(*NodeCRC64:9907401017642776752, FileCRC64:7915297945421370368*)
+FUNCTION_BLOCK FB_Example
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+
+Body
+
+EndBody
+
+(*{"Version":"1.0.0.0","Path":"FB_Example","ObjectType":"FunctionBlock"}*)
+
+END_FUNCTION_BLOCK
