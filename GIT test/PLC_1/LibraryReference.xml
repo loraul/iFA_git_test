@@ -1,10 +1,15 @@
-<!--NodeCRC64:1509332811864155920, FileCRC64:410905005450569429-->
+<!--NodeCRC64:16331619272435819674, FileCRC64:1068470216280477613-->
 <libraries>
     <library name="#EtherCAT" namespace="EtherCAT" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="EtherCAT, 1.5.0.0 (System)" />
+    <library name="#ExtendIo" namespace="ExtendIo" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="ExtendIo, 1.1.0.0 (System)" />
+    <library name="#FileProc" namespace="FileProc" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="FileProc, 1.0.0.0 (System)" />
     <library name="#IoStandard" namespace="IoStandard" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="True" defaultResolution="IoStandard, 1.0.0.0 (System)" />
+    <library name="#Logic" namespace="Logic" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="Logic, 1.1.0.0 (System)" />
     <library name="#LoopControl" namespace="LoopControl" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="LoopControl, 1.3.0.0 (System)" />
     <library name="#MotionControl" namespace="MotionControl" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="MotionControl, 2.5.0.0 (System)" />
     <library name="#RecipeManagement" namespace="RecipeManagement" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="RecipeManagement, 2.0.0.0 (system)" />
     <library name="#Standard" namespace="Standard" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="Standard, 1.4.0.0 (System)" />
+    <library name="#Standard64" namespace="Standard64" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="Standard64, 1.3.0.0 (System)" />
     <library name="#SysLib" namespace="SysLib" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="SysLib, 1.3.0.0 (System)" />
+    <library name="#Util" namespace="Util" hideWhenReferencedAsDependency="False" publishSymbolsInContainer="False" systemLibrary="True" linkAllContent="False" defaultResolution="Util, 1.4.0.0 (System)" />
 </libraries>
