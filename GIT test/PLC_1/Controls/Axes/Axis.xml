@@ -1,4 +1,4 @@
-<!--NodeCRC64:3326882137717616521, FileCRC64:3326882137717616521-->
+<!--NodeCRC64:9185357555644936535, FileCRC64:9185357555644936535-->
 <axis name="Axis">
     <deviceIdentification>33945ee707d6ae1d53984cf311993139</deviceIdentification>
     <attribute>
@@ -37,7 +37,7 @@
         </parameter>
         <parameter id="1052" name="iRatioTechUnitsNum" description="conversion inc./tech.units numerator">
             <value>
-                <simpleValue value="3" />
+                <simpleValue value="5" />
             </value>
         </parameter>
         <parameter id="1060" name="iMovementType" description="Movement type: 0: modulo, 1: finite">
@@ -222,7 +222,7 @@
         </parameter>
         <parameter id="5005" name="ScalingUnits" description="">
             <value>
-                <simpleValue value="12" />
+                <simpleValue value="20" />
             </value>
         </parameter>
         <parameter id="5006" name="InvertDirection" description="">
