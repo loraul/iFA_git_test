@@ -1,0 +1,2863 @@
+<!--NodeCRC64:3326882137717616521, FileCRC64:3326882137717616521-->
+<axis name="Axis">
+    <deviceIdentification>33945ee707d6ae1d53984cf311993139</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask>
+        <id>0</id>
+        <taskName />
+    </busTask>
+    <parameters>
+        <parameter id="1000" name="CycleTime" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1021" name="wDriveID" description="Unique ID of the drive">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1030" name="AxisType" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1040" name="bVirtual" description="Whether the drive is simulated">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="1051" name="dwRatioTechUnitsDenom" description="conversion inc./tech.units denominator">
+            <value>
+                <simpleValue value="262144" />
+            </value>
+        </parameter>
+        <parameter id="1052" name="iRatioTechUnitsNum" description="conversion inc./tech.units numerator">
+            <value>
+                <simpleValue value="3" />
+            </value>
+        </parameter>
+        <parameter id="1060" name="iMovementType" description="Movement type: 0: modulo, 1: finite">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="1061" name="fPositionPeriod" description="Modulo period value for modulo drives [u]">
+            <value>
+                <simpleValue value="360" />
+            </value>
+        </parameter>
+        <parameter id="1062" name="eRampType" description="The velocity ramp used for trajectories.">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1063" name="ePosRestoreType" description="Position system recovery mode.">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1113" name="fSWMaxVelocity" description="Maximum velocity magnitude (software limit)">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="1123" name="fSWMaxAcceleration" description="Maximum acceleration magnitude (software limit)">
+            <value>
+                <simpleValue value="5000" />
+            </value>
+        </parameter>
+        <parameter id="1133" name="fSWMaxDeceleration" description="Maximum deceleration magnitude (software limit)">
+            <value>
+                <simpleValue value="5000" />
+            </value>
+        </parameter>
+        <parameter id="1143" name="fSWMaxJerk" description="Maximum jerk magnitude (software limit)">
+            <value>
+                <simpleValue value="10000" />
+            </value>
+        </parameter>
+        <parameter id="1144" name="fRampJerk" description="Jerk used for bringing acceleration to 0 when sin² ramp is interrupted.">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1200" name="fSWLimitPositive" description="Software limit in positive direction">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="1201" name="fSWLimitNegative" description="Software limit in negative direction">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1203" name="fSWLimitDeceleration" description="Deceleration for  stop on software error [u/s²]">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1205" name="bSWLimitEnable" description="Activate/deactivate software limits">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="1207" name="eCheckPositionLag" description="Position lag mode">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1208" name="fMaxPositionLag" description="Maximum position lag (magnitude) [u]">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="1250" name="fSWErrorMaxDistance" description="Maximum distance that may be travelled for ramping down after a software error has been detected [u]">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="1300" name="fJogMaxVel" description="Maximum jog velocity">
+            <value>
+                <simpleValue value="30" />
+            </value>
+        </parameter>
+        <parameter id="1310" name="fJogMaxAcc" description="Maximum jog Acceleration">
+            <value>
+                <simpleValue value="500" />
+            </value>
+        </parameter>
+        <parameter id="1311" name="LOC_RANG" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="1312" name="LOC_TIME" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="4000" name="ScalingUnit" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="4001" name="ScalingUseGearbox" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="4004" name="Method" description="" download="false">
+            <value>
+                <simpleValue value="23" />
+            </value>
+        </parameter>
+        <parameter id="4005" name="PositionMethod" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="4006" name="Velocity" description="" download="false">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="4007" name="Acceleration" description="" download="false">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="4008" name="ApproachVelocity" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="4009" name="Timeout" description="" download="false">
+            <value>
+                <simpleValue value="50000" />
+            </value>
+        </parameter>
+        <parameter id="4010" name="PositiveTorqueLimit" description="" download="false">
+            <value>
+                <simpleValue value="5000" />
+            </value>
+        </parameter>
+        <parameter id="4011" name="NegativeTorqueLimit" description="" download="false">
+            <value>
+                <simpleValue value="5000" />
+            </value>
+        </parameter>
+        <parameter id="4012" name="MaxVelocity" description="" download="false">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="5000" name="ScalingIncs" description="">
+            <value>
+                <simpleValue value="1048576" />
+            </value>
+        </parameter>
+        <parameter id="5001" name="ScalingMotorTurns1" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="5002" name="ScalingMotorTurns2" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="5003" name="ScalingGearOutput1" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="5004" name="ScalingGearOutput2" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="5005" name="ScalingUnits" description="">
+            <value>
+                <simpleValue value="12" />
+            </value>
+        </parameter>
+        <parameter id="5006" name="InvertDirection" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="6000" name="Logical device number" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="7000" name="Set60C2" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="7100" name="DSP402._bImmediateDisabling" description="TRUE: when bRegulator is reset to FALSE, disable immediately (go to &quot;Switch on disabled&quot; directly); FALSE: go via &quot;switched on&quot; and &quot;ready to switch on&quot;">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="7101" name="DSP402._uiPreHomingWait" description="cycles to wait in PRE_HOMING before setting Bit4">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="7102" name="DSP402._uiPostHomingWait" description="cycles to wait in HOMING_DONE after homing (precond.: bRegulatorOn=TRUE)">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="7103" name="DSP402._uiHomingMinCycles" description="number of cycles at beginning of HOMING, where done bits are ignored">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="7104" name="DSP402._uiWaitCyclesForStateSwitch" description="cycles to wait until detecting an failure and switching back">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="7105" name="DSP402._bPreHomingWaitBit12Clear" description="TRUE: before starting the homing procedure (by setting Bit4) wait that Bit12 is FALSE">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="7106" name="DSP402._bCheckBit10PostHoming" description="TRUE: switch to HOMING_DONE if  Bit12 AND Bit10 is true (correct acc. DSP402); FALSE: ignore Bit10">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="7107" name="DSP402._bCheckOpMode" description="FALSE: do not re-read and check if mode has been accepted by the drive">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="7108" name="DSP402._bForbidReenableDuringDisabling" description="(only relevant when _bImmediateDisabling=TRUE) TRUE: the drive is step by step disabled until the drive signals to be in &quot;Ready to switch on&quot; before a new enable command is processed.">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="7109" name="DSP402._bCheckBit12InPositionMode" description="TRUE: AxisIsReadyForMotion checks bit 12 in CSP or IP, FALSE: AxisIsReadyForMotion does not check bit 12.">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="7110" name="DSP402._bDoHaltWhenStopInterruptsHome" description="TRUE: when MC_Stop interrupts MC_Halt abort homing with Bit8; FALSE: do not set Bit8 but directly switch operation mode.">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="7111" name="DSP402._bCheckBit13InHomingMode" description="TRUE: in HOMING_ACTIVE, wStatusWord.13 = TRUE leads to errorstop and (depending on _bDoHaltWhenStopInterruptsHome) wControlWord.8 := TRUE.">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="8000" name="NumberOfOutputMappingParams" description="">
+            <value>
+                <simpleValue value="17" />
+            </value>
+        </parameter>
+        <parameter id="8010" name="ControlWord" description="">
+            <value>
+                <simpleValue value="10064" />
+            </value>
+        </parameter>
+        <parameter id="8011" name="Object_8010" description="" download="false">
+            <value>
+                <simpleValue value="'16#6040:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8012" name="AdrOffset_8010" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8013" name="BitOffset_8010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8014" name="BitLength_8010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8015" name="Address_8010" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8016" name="Type_8010" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8017" name="AddressPointer_8010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8018" name="ParameterId_8010" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8020" name="Target position" description="">
+            <value>
+                <simpleValue value="1108" />
+            </value>
+        </parameter>
+        <parameter id="8021" name="Object_8020" description="" download="false">
+            <value>
+                <simpleValue value="'16#607A:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8022" name="AdrOffset_8020" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8023" name="BitOffset_8020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8024" name="BitLength_8020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8025" name="Address_8020" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8026" name="Type_8020" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8027" name="AddressPointer_8020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8028" name="ParameterId_8020" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8030" name="Target velocity" description="">
+            <value>
+                <simpleValue value="1118" />
+            </value>
+        </parameter>
+        <parameter id="8031" name="Object_8030" description="" download="false">
+            <value>
+                <simpleValue value="'16#60FF:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8032" name="AdrOffset_8030" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8033" name="BitOffset_8030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8034" name="BitLength_8030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8035" name="Address_8030" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8036" name="Type_8030" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8037" name="AddressPointer_8030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8038" name="ParameterId_8030" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8040" name="Target torque" description="">
+            <value>
+                <simpleValue value="1168" />
+            </value>
+        </parameter>
+        <parameter id="8041" name="Object_8040" description="" download="false">
+            <value>
+                <simpleValue value="'16#6071:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8042" name="AdrOffset_8040" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8043" name="BitOffset_8040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8044" name="BitLength_8040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8045" name="Address_8040" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8046" name="Type_8040" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8047" name="AddressPointer_8040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8048" name="ParameterId_8040" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8050" name="Modes of operation" description="">
+            <value>
+                <simpleValue value="10096" />
+            </value>
+        </parameter>
+        <parameter id="8051" name="Object_8050" description="" download="false">
+            <value>
+                <simpleValue value="'16#6060:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8052" name="AdrOffset_8050" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8053" name="BitOffset_8050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8054" name="BitLength_8050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8055" name="Address_8050" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8056" name="Type_8050" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8057" name="AddressPointer_8050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8058" name="ParameterId_8050" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8060" name="Touch probe function" description="">
+            <value>
+                <simpleValue value="10184" />
+            </value>
+        </parameter>
+        <parameter id="8061" name="Object_8060" description="" download="false">
+            <value>
+                <simpleValue value="'16#60B8:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8062" name="AdrOffset_8060" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8063" name="BitOffset_8060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8064" name="BitLength_8060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8065" name="Address_8060" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8066" name="Type_8060" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8067" name="AddressPointer_8060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8068" name="ParameterId_8060" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8070" name="Velocity offset" description="">
+            <value>
+                <simpleValue value="10177" />
+            </value>
+        </parameter>
+        <parameter id="8071" name="Object_8070" description="" download="false">
+            <value>
+                <simpleValue value="'16#60B1:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8072" name="AdrOffset_8070" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8073" name="BitOffset_8070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8074" name="BitLength_8070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8075" name="Address_8070" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8076" name="Type_8070" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8077" name="AddressPointer_8070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8078" name="ParameterId_8070" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8080" name="Torque offset" description="">
+            <value>
+                <simpleValue value="10178" />
+            </value>
+        </parameter>
+        <parameter id="8081" name="Object_8080" description="" download="false">
+            <value>
+                <simpleValue value="'16#60B2:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8082" name="AdrOffset_8080" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8083" name="BitOffset_8080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8084" name="BitLength_8080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8085" name="Address_8080" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8086" name="Type_8080" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8087" name="AddressPointer_8080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8088" name="ParameterId_8080" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8090" name="Physical outputs" description="">
+            <value>
+                <simpleValue value="10254" />
+            </value>
+        </parameter>
+        <parameter id="8091" name="Object_8090" description="" download="false">
+            <value>
+                <simpleValue value="'16#60FE:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="8092" name="AdrOffset_8090" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8093" name="BitOffset_8090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8094" name="BitLength_8090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8095" name="Address_8090" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8096" name="Type_8090" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8097" name="AddressPointer_8090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8098" name="ParameterId_8090" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8100" name="Positive torque limit value" description="">
+            <value>
+                <simpleValue value="10260" />
+            </value>
+        </parameter>
+        <parameter id="8101" name="Object_8100" description="" download="false">
+            <value>
+                <simpleValue value="'16#60E0:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8102" name="AdrOffset_8100" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8103" name="BitOffset_8100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8104" name="BitLength_8100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8105" name="Address_8100" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8106" name="Type_8100" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8107" name="AddressPointer_8100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8108" name="ParameterId_8100" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8110" name="Negative torque limit value" description="">
+            <value>
+                <simpleValue value="10261" />
+            </value>
+        </parameter>
+        <parameter id="8111" name="Object_8110" description="" download="false">
+            <value>
+                <simpleValue value="'16#60E1:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8112" name="AdrOffset_8110" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8113" name="BitOffset_8110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8114" name="BitLength_8110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8115" name="Address_8110" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8116" name="Type_8110" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8117" name="AddressPointer_8110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8118" name="ParameterId_8110" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8120" name="Max profile velocity" description="">
+            <value>
+                <simpleValue value="10263" />
+            </value>
+        </parameter>
+        <parameter id="8121" name="Object_8120" description="" download="false">
+            <value>
+                <simpleValue value="'16#607F:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8122" name="AdrOffset_8120" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8123" name="BitOffset_8120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8124" name="BitLength_8120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8125" name="Address_8120" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8126" name="Type_8120" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8127" name="AddressPointer_8120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8128" name="ParameterId_8120" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8130" name="Position offset" description="">
+            <value>
+                <simpleValue value="10264" />
+            </value>
+        </parameter>
+        <parameter id="8131" name="Object_8130" description="" download="false">
+            <value>
+                <simpleValue value="'16#60B0:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8132" name="AdrOffset_8130" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8133" name="BitOffset_8130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8134" name="BitLength_8130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8135" name="Address_8130" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8136" name="Type_8130" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8137" name="AddressPointer_8130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8138" name="ParameterId_8130" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8140" name="Torque slope" description="">
+            <value>
+                <simpleValue value="10265" />
+            </value>
+        </parameter>
+        <parameter id="8141" name="Object_8140" description="" download="false">
+            <value>
+                <simpleValue value="'16#6087:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8142" name="AdrOffset_8140" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8143" name="BitOffset_8140" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8144" name="BitLength_8140" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8145" name="Address_8140" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8146" name="Type_8140" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8147" name="AddressPointer_8140" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8148" name="ParameterId_8140" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8150" name="Profile velocity" description="">
+            <value>
+                <simpleValue value="10266" />
+            </value>
+        </parameter>
+        <parameter id="8151" name="Object_8150" description="" download="false">
+            <value>
+                <simpleValue value="'16#6081:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8152" name="AdrOffset_8150" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8153" name="BitOffset_8150" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8154" name="BitLength_8150" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8155" name="Address_8150" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8156" name="Type_8150" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8157" name="AddressPointer_8150" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8158" name="ParameterId_8150" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8160" name="Profile acceleration" description="">
+            <value>
+                <simpleValue value="10267" />
+            </value>
+        </parameter>
+        <parameter id="8161" name="Object_8160" description="" download="false">
+            <value>
+                <simpleValue value="'16#6083:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8162" name="AdrOffset_8160" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8163" name="BitOffset_8160" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8164" name="BitLength_8160" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8165" name="Address_8160" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8166" name="Type_8160" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8167" name="AddressPointer_8160" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8168" name="ParameterId_8160" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8170" name="Profile deceleration" description="">
+            <value>
+                <simpleValue value="10268" />
+            </value>
+        </parameter>
+        <parameter id="8171" name="Object_8170" description="" download="false">
+            <value>
+                <simpleValue value="'16#6084:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8172" name="AdrOffset_8170" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8173" name="BitOffset_8170" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8174" name="BitLength_8170" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8175" name="Address_8170" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8176" name="Type_8170" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8177" name="AddressPointer_8170" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8178" name="ParameterId_8170" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8500" name="NumberOfInputMappingParams" description="">
+            <value>
+                <simpleValue value="13" />
+            </value>
+        </parameter>
+        <parameter id="8510" name="Statusword" description="">
+            <value>
+                <simpleValue value="20065" />
+            </value>
+        </parameter>
+        <parameter id="8511" name="Object_8510" description="" download="false">
+            <value>
+                <simpleValue value="'16#6041:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8512" name="AdrOffset_8510" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8513" name="BitOffset_8510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8514" name="BitLength_8510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8515" name="Address_8510" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8516" name="Type_8510" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8517" name="AddressPointer_8510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8518" name="ParameterId_8510" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8520" name="Position actual value" description="">
+            <value>
+                <simpleValue value="1109" />
+            </value>
+        </parameter>
+        <parameter id="8521" name="Object_8520" description="" download="false">
+            <value>
+                <simpleValue value="'16#6064:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8522" name="AdrOffset_8520" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8523" name="BitOffset_8520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8524" name="BitLength_8520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8525" name="Address_8520" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8526" name="Type_8520" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8527" name="AddressPointer_8520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8528" name="ParameterId_8520" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8530" name="Velocity actual value" description="">
+            <value>
+                <simpleValue value="1119" />
+            </value>
+        </parameter>
+        <parameter id="8531" name="Object_8530" description="" download="false">
+            <value>
+                <simpleValue value="'16#606C:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8532" name="AdrOffset_8530" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8533" name="BitOffset_8530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8534" name="BitLength_8530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8535" name="Address_8530" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8536" name="Type_8530" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8537" name="AddressPointer_8530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8538" name="ParameterId_8530" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8540" name="Torque actual value" description="">
+            <value>
+                <simpleValue value="1169" />
+            </value>
+        </parameter>
+        <parameter id="8541" name="Object_8540" description="" download="false">
+            <value>
+                <simpleValue value="'16#6077:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8542" name="AdrOffset_8540" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8543" name="BitOffset_8540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8544" name="BitLength_8540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8545" name="Address_8540" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8546" name="Type_8540" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8547" name="AddressPointer_8540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8548" name="ParameterId_8540" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8550" name="Modes of operation display" description="">
+            <value>
+                <simpleValue value="20097" />
+            </value>
+        </parameter>
+        <parameter id="8551" name="Object_8550" description="" download="false">
+            <value>
+                <simpleValue value="'16#6061:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8552" name="AdrOffset_8550" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8553" name="BitOffset_8550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8554" name="BitLength_8550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8555" name="Address_8550" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8556" name="Type_8550" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8557" name="AddressPointer_8550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8558" name="ParameterId_8550" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8560" name="Digital inputs" description="">
+            <value>
+                <simpleValue value="20253" />
+            </value>
+        </parameter>
+        <parameter id="8561" name="Object_8560" description="" download="false">
+            <value>
+                <simpleValue value="'16#60FD:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8562" name="AdrOffset_8560" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8563" name="BitOffset_8560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8564" name="BitLength_8560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8565" name="Address_8560" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8566" name="Type_8560" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8567" name="AddressPointer_8560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8568" name="ParameterId_8560" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8570" name="Touch probe status" description="">
+            <value>
+                <simpleValue value="20185" />
+            </value>
+        </parameter>
+        <parameter id="8571" name="Object_8570" description="" download="false">
+            <value>
+                <simpleValue value="'16#60B9:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8572" name="AdrOffset_8570" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8573" name="BitOffset_8570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8574" name="BitLength_8570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8575" name="Address_8570" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8576" name="Type_8570" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8577" name="AddressPointer_8570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8578" name="ParameterId_8570" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8580" name="Touch probe pos1 pos value" description="">
+            <value>
+                <simpleValue value="20186" />
+            </value>
+        </parameter>
+        <parameter id="8581" name="Object_8580" description="" download="false">
+            <value>
+                <simpleValue value="'16#60BA:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8582" name="AdrOffset_8580" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8583" name="BitOffset_8580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8584" name="BitLength_8580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8585" name="Address_8580" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8586" name="Type_8580" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8587" name="AddressPointer_8580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8588" name="ParameterId_8580" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8590" name="Touch probe pos1 neg value" description="">
+            <value>
+                <simpleValue value="20187" />
+            </value>
+        </parameter>
+        <parameter id="8591" name="Object_8590" description="" download="false">
+            <value>
+                <simpleValue value="'16#60BB:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8592" name="AdrOffset_8590" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8593" name="BitOffset_8590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8594" name="BitLength_8590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8595" name="Address_8590" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8596" name="Type_8590" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8597" name="AddressPointer_8590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8598" name="ParameterId_8590" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8600" name="Touch probe pos2 pos value" description="">
+            <value>
+                <simpleValue value="20188" />
+            </value>
+        </parameter>
+        <parameter id="8601" name="Object_8600" description="" download="false">
+            <value>
+                <simpleValue value="'16#60BC:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8602" name="AdrOffset_8600" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8603" name="BitOffset_8600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8604" name="BitLength_8600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8605" name="Address_8600" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8606" name="Type_8600" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8607" name="AddressPointer_8600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8608" name="ParameterId_8600" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8610" name="Touch probe pos2 neg value" description="">
+            <value>
+                <simpleValue value="20189" />
+            </value>
+        </parameter>
+        <parameter id="8611" name="Object_8600" description="" download="false">
+            <value>
+                <simpleValue value="'16#60BD:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8612" name="AdrOffset_8600" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8613" name="BitOffset_8600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8614" name="BitLength_8600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8615" name="Address_8610" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8616" name="Type_8610" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8617" name="AddressPointer_8610" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8618" name="ParameterId_8610" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8620" name="Following error actual value" description="">
+            <value>
+                <simpleValue value="1243" />
+            </value>
+        </parameter>
+        <parameter id="8621" name="Object_8620" description="" download="false">
+            <value>
+                <simpleValue value="'16#60F4:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8622" name="AdrOffset_8620" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8623" name="BitOffset_8620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8624" name="BitLength_8620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8625" name="Address_8620" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8626" name="Type_8620" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8627" name="AddressPointer_8620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8628" name="ParameterId_8620" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8630" name="Error Code" description="">
+            <value>
+                <simpleValue value="20200" />
+            </value>
+        </parameter>
+        <parameter id="8631" name="Object_8630" description="" download="false">
+            <value>
+                <simpleValue value="'16#603F:16#00'" />
+            </value>
+        </parameter>
+        <parameter id="8632" name="AdrOffset_8630" description="">
+            <value>
+                <simpleValue value="4294967295" />
+            </value>
+        </parameter>
+        <parameter id="8633" name="BitOffset_8630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8634" name="BitLength_8630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8635" name="Address_8630" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8636" name="Type_8630" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="8637" name="AddressPointer_8630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8638" name="ParameterId_8630" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="8999" name="Automatic Mapping" description="">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="9100" name="HomingMode" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="9101" name="ZeroSignal" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="9102" name="StartDirction" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="9103" name="EndDirection" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="9104" name="PosLimitMode" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="9105" name="NegLimitMode" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="9200" name="HomingVelocity" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="9201" name="HomingApproachVelocity" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="9202" name="HomingAcceleration" description="">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="9203" name="HomingDeceleration" description="">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="9204" name="HomingJerk" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="9300" name="HomeMaskDistance" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="9301" name="HomePositionOffset" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="9302" name="HomePushTime" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="9303" name="HomeCompensation" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="9304" name="HomeCompensationVelocity" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="9305" name="HomeTimeout" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10000" name="NumberOfOutputMappingParams" description="">
+            <value>
+                <simpleValue value="13" />
+            </value>
+        </parameter>
+        <parameter id="10010" name="Encoder Oper Command" description="">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="10011" name="Object_10010" description="" download="false">
+            <value>
+                <simpleValue value="'16#7000:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10012" name="AdrOffset_10010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10013" name="BitOffset_10010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10014" name="BitLength_10010" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10020" name="Perset Command Value" description="">
+            <value>
+                <simpleValue value="2001" />
+            </value>
+        </parameter>
+        <parameter id="10021" name="Object_10020" description="" download="false">
+            <value>
+                <simpleValue value="'16#7001:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10022" name="AdrOffset_10020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10023" name="BitOffset_10020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10024" name="BitLength_10020" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10030" name="Touch Probe Function" description="">
+            <value>
+                <simpleValue value="2002" />
+            </value>
+        </parameter>
+        <parameter id="10031" name="Object_10030" description="" download="false">
+            <value>
+                <simpleValue value="'16#7002:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10032" name="AdrOffset_10030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10033" name="BitOffset_10030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10034" name="BitLength_10030" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10040" name="Do Output Function" description="">
+            <value>
+                <simpleValue value="2003" />
+            </value>
+        </parameter>
+        <parameter id="10041" name="Object_10040" description="" download="false">
+            <value>
+                <simpleValue value="'16#7003:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10042" name="AdrOffset_10040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10043" name="BitOffset_10040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10044" name="BitLength_10040" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10050" name="Compare Mode" description="">
+            <value>
+                <simpleValue value="2010" />
+            </value>
+        </parameter>
+        <parameter id="10051" name="Object_10050" description="" download="false">
+            <value>
+                <simpleValue value="'16#7003:16#03'" />
+            </value>
+        </parameter>
+        <parameter id="10052" name="AdrOffset_10050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10053" name="BitOffset_10050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10054" name="BitLength_10050" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10060" name="Compare Pluse Time" description="">
+            <value>
+                <simpleValue value="2011" />
+            </value>
+        </parameter>
+        <parameter id="10061" name="Object_10060" description="" download="false">
+            <value>
+                <simpleValue value="'16#7003:16#05'" />
+            </value>
+        </parameter>
+        <parameter id="10062" name="AdrOffset_10060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10063" name="BitOffset_10060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10064" name="BitLength_10060" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10070" name="Compare Size Step" description="">
+            <value>
+                <simpleValue value="2012" />
+            </value>
+        </parameter>
+        <parameter id="10071" name="Object_10070" description="" download="false">
+            <value>
+                <simpleValue value="'16#7003:16#06'" />
+            </value>
+        </parameter>
+        <parameter id="10072" name="AdrOffset_10070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10073" name="BitOffset_10070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10074" name="BitLength_10070" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10080" name="Compare Value1" description="">
+            <value>
+                <simpleValue value="2004" />
+            </value>
+        </parameter>
+        <parameter id="10081" name="Object_10080" description="" download="false">
+            <value>
+                <simpleValue value="'16#7004:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10082" name="AdrOffset_10080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10083" name="BitOffset_10080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10084" name="BitLength_10080" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10090" name="Compare Value2" description="">
+            <value>
+                <simpleValue value="2005" />
+            </value>
+        </parameter>
+        <parameter id="10091" name="Object_10090" description="" download="false">
+            <value>
+                <simpleValue value="'16#7005:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10092" name="AdrOffset_10090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10093" name="BitOffset_10090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10094" name="BitLength_10090" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10100" name="Compare Time1" description="">
+            <value>
+                <simpleValue value="2006" />
+            </value>
+        </parameter>
+        <parameter id="10101" name="Object_10100" description="" download="false">
+            <value>
+                <simpleValue value="'16#7006:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10102" name="AdrOffset_10100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10103" name="BitOffset_10100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10104" name="BitLength_10100" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10110" name="Compare Time2" description="">
+            <value>
+                <simpleValue value="2007" />
+            </value>
+        </parameter>
+        <parameter id="10111" name="Object_10110" description="" download="false">
+            <value>
+                <simpleValue value="'16#7007:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10112" name="AdrOffset_10110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10113" name="BitOffset_10110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10114" name="BitLength_10110" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10120" name="Ch0 Compare Value" description="">
+            <value>
+                <simpleValue value="2008" />
+            </value>
+        </parameter>
+        <parameter id="10121" name="Object_10120" description="" download="false">
+            <value>
+                <simpleValue value="'16#7008:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10122" name="AdrOffset_10120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10123" name="BitOffset_10120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10124" name="BitLength_10120" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10130" name="Ch1 Compare Value" description="">
+            <value>
+                <simpleValue value="2009" />
+            </value>
+        </parameter>
+        <parameter id="10131" name="Object_10130" description="" download="false">
+            <value>
+                <simpleValue value="'16#7009:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10132" name="AdrOffset_10130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10133" name="BitOffset_10130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10134" name="BitLength_10130" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10500" name="NumberOfInputMappingParams" description="">
+            <value>
+                <simpleValue value="19" />
+            </value>
+        </parameter>
+        <parameter id="10510" name="Error Code" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="10511" name="Object_10510" description="" download="false">
+            <value>
+                <simpleValue value="'16#3200:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10512" name="AdrOffset_10510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10513" name="BitOffset_10510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10514" name="BitLength_10510" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10520" name="Time Test" description="">
+            <value>
+                <simpleValue value="1001" />
+            </value>
+        </parameter>
+        <parameter id="10521" name="Object_10520" description="" download="false">
+            <value>
+                <simpleValue value="'16#3300:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10522" name="AdrOffset_10520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10523" name="BitOffset_10520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10524" name="BitLength_10520" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10530" name="Encoder Status" description="">
+            <value>
+                <simpleValue value="1002" />
+            </value>
+        </parameter>
+        <parameter id="10531" name="Object_10530" description="" download="false">
+            <value>
+                <simpleValue value="'16#6000:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10532" name="AdrOffset_10530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10533" name="BitOffset_10530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10534" name="BitLength_10530" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10540" name="External Input Status" description="">
+            <value>
+                <simpleValue value="1003" />
+            </value>
+        </parameter>
+        <parameter id="10541" name="Object_10540" description="" download="false">
+            <value>
+                <simpleValue value="'16#6001:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10542" name="AdrOffset_10540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10543" name="BitOffset_10540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10544" name="BitLength_10540" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10550" name="Preset Position" description="">
+            <value>
+                <simpleValue value="1004" />
+            </value>
+        </parameter>
+        <parameter id="10551" name="Object_10550" description="" download="false">
+            <value>
+                <simpleValue value="'16#6002:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10552" name="AdrOffset_10550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10553" name="BitOffset_10550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10554" name="BitLength_10550" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10560" name="Pulse Rate" description="">
+            <value>
+                <simpleValue value="1005" />
+            </value>
+        </parameter>
+        <parameter id="10561" name="Object_10560" description="" download="false">
+            <value>
+                <simpleValue value="'16#6003:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10562" name="AdrOffset_10560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10563" name="BitOffset_10560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10564" name="BitLength_10560" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10570" name="Compare Error Code" description="">
+            <value>
+                <simpleValue value="1017" />
+            </value>
+        </parameter>
+        <parameter id="10571" name="Object_10570" description="" download="false">
+            <value>
+                <simpleValue value="'16#6003:16#03'" />
+            </value>
+        </parameter>
+        <parameter id="10572" name="AdrOffset_10570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10573" name="BitOffset_10570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10574" name="BitLength_10570" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10580" name="Current Compare Position" description="">
+            <value>
+                <simpleValue value="1018" />
+            </value>
+        </parameter>
+        <parameter id="10581" name="Object_10580" description="" download="false">
+            <value>
+                <simpleValue value="'16#6003:16#07'" />
+            </value>
+        </parameter>
+        <parameter id="10582" name="AdrOffset_10580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10583" name="BitOffset_10580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10584" name="BitLength_10580" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10590" name="Touch Probe Status" description="">
+            <value>
+                <simpleValue value="1006" />
+            </value>
+        </parameter>
+        <parameter id="10591" name="Object_10590" description="" download="false">
+            <value>
+                <simpleValue value="'16#6004:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10592" name="AdrOffset_10590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10593" name="BitOffset_10590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10594" name="BitLength_10590" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10600" name="Touch Probe Pos1 Value" description="">
+            <value>
+                <simpleValue value="1007" />
+            </value>
+        </parameter>
+        <parameter id="10601" name="Object_10600" description="" download="false">
+            <value>
+                <simpleValue value="'16#6005:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10602" name="AdrOffset_10600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10603" name="BitOffset_10600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10604" name="BitLength_10600" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10610" name="Touch Probe Neg1 Value" description="">
+            <value>
+                <simpleValue value="1008" />
+            </value>
+        </parameter>
+        <parameter id="10611" name="Object_10610" description="" download="false">
+            <value>
+                <simpleValue value="'16#6006:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10612" name="AdrOffset_10610" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10613" name="BitOffset_10610" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10614" name="BitLength_10610" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10620" name="Touch Probe Pos2 Value" description="">
+            <value>
+                <simpleValue value="1009" />
+            </value>
+        </parameter>
+        <parameter id="10621" name="Object_10620" description="" download="false">
+            <value>
+                <simpleValue value="'16#6007:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10622" name="AdrOffset_10620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10623" name="BitOffset_10620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10624" name="BitLength_10620" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10630" name="Touch Probe Neg2 Value" description="">
+            <value>
+                <simpleValue value="1010" />
+            </value>
+        </parameter>
+        <parameter id="10631" name="Object_10630" description="" download="false">
+            <value>
+                <simpleValue value="'16#6008:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10632" name="AdrOffset_10630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10633" name="BitOffset_10630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10634" name="BitLength_10630" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10640" name="Time Stamp" description="">
+            <value>
+                <simpleValue value="1011" />
+            </value>
+        </parameter>
+        <parameter id="10641" name="Object_10640" description="" download="false">
+            <value>
+                <simpleValue value="'16#6009:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10642" name="AdrOffset_10640" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10643" name="BitOffset_10640" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10644" name="BitLength_10640" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10650" name="Probe Pos1 Time Stamp" description="">
+            <value>
+                <simpleValue value="1012" />
+            </value>
+        </parameter>
+        <parameter id="10651" name="Object_10650" description="" download="false">
+            <value>
+                <simpleValue value="'16#600A:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10652" name="AdrOffset_10650" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10653" name="BitOffset_10650" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10654" name="BitLength_10650" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10660" name="Probe Neg1 Time Stamp" description="">
+            <value>
+                <simpleValue value="1013" />
+            </value>
+        </parameter>
+        <parameter id="10661" name="Object_10660" description="" download="false">
+            <value>
+                <simpleValue value="'16#600B:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10662" name="AdrOffset_10660" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10663" name="BitOffset_10660" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10664" name="BitLength_10660" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10670" name="Probe Pos2 Time Stamp" description="">
+            <value>
+                <simpleValue value="1014" />
+            </value>
+        </parameter>
+        <parameter id="10671" name="Object_10670" description="" download="false">
+            <value>
+                <simpleValue value="'16#600C:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10672" name="AdrOffset_10670" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10673" name="BitOffset_10670" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10674" name="BitLength_10670" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10680" name="Probe Neg2 Time Stamp" description="">
+            <value>
+                <simpleValue value="1015" />
+            </value>
+        </parameter>
+        <parameter id="10681" name="Object_10680" description="" download="false">
+            <value>
+                <simpleValue value="'16#600D:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10682" name="AdrOffset_10680" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10683" name="BitOffset_10680" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10684" name="BitLength_10680" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10690" name="Do Output Status" description="">
+            <value>
+                <simpleValue value="1016" />
+            </value>
+        </parameter>
+        <parameter id="10691" name="Object_10690" description="" download="false">
+            <value>
+                <simpleValue value="'16#600E:16#01'" />
+            </value>
+        </parameter>
+        <parameter id="10692" name="AdrOffset_10690" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10693" name="BitOffset_10690" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="10694" name="BitLength_10690" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15000" name="LocalAxisConfiguration._iSource" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15001" name="LocalAxisConfiguration._bHardWareResetEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15002" name="LocalAxisConfiguration._iResetInputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15003" name="LocalAxisConfiguration._iResetEdge" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15004" name="LocalAxisConfiguration._bTouchProbe1Enable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15005" name="LocalAxisConfiguration._iTouchProbe1InputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15006" name="LocalAxisConfiguration._bPreSetEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15007" name="LocalAxisConfiguration._iPreSetInputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15008" name="LocalAxisConfiguration._bCompareEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15009" name="LocalAxisConfiguration._iCompareOutputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15010" name="LocalAxisConfiguration._iPluseUnit" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15011" name="LocalAxisConfiguration._fOutputWidth" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="15012" name="LocalAxisConfiguration._iCounterMode" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15013" name="LocalAxisConfiguration._iHighSpeedCounter" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15016" name="LocalAxisConfiguration._iPluseID" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15017" name="LocalAxisConfiguration._bErrorStop" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15019" name="AxisBackTimeOut" description="">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="15022" name="LocalAxisConfiguration._iOutPutMode" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15023" name="LocalAxisConfiguration._iReversingDelayTime" description="">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="15024" name="LocalAxisConfiguration._bTouchProbe1Enable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15025" name="LocalAxisConfiguration._iTouchProbe1InputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="15034" name="LocalAxisConfiguration._bTouchProbe2Enable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="15035" name="LocalAxisConfiguration._iTouchProbe2InputPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16000" name="HomingMode" description="">
+            <value>
+                <simpleValue value="17" />
+            </value>
+        </parameter>
+        <parameter id="16001" name="HomingVelocity" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="16002" name="HomingApproachVelocity" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="16003" name="HomingAcceleration" description="">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="16004" name="HomeTimeout" description="">
+            <value>
+                <simpleValue value="50000" />
+            </value>
+        </parameter>
+        <parameter id="16005" name="PositiveLimitEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="16006" name="PulsePositivePinAddress" description="">
+            <value />
+        </parameter>
+        <parameter id="16007" name="PulsePositivePinAddressOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16008" name="PositiveLimitInv" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16009" name="NegativeLimitEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="16010" name="PulseNegativePinAddress" description="">
+            <value />
+        </parameter>
+        <parameter id="16011" name="PulseNegativePinAddressOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16012" name="NegativeLimitInv" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16013" name="HomeSwitchEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="16014" name="HomeSwitchPin" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16015" name="HomeSwitchInv" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16016" name="OriginSignal" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16017" name="ZSignal" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="16018" name="PositiveLimit" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16019" name="NegativeLimit" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16020" name="OriginReturnDirection" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16021" name="OriginInputDetectionDirection" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16030" name="LocalSignalEnable" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="16031" name="NegLimitAdr" description="">
+            <value />
+        </parameter>
+        <parameter id="16032" name="NegLimitOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16033" name="PosLimitAdr" description="">
+            <value />
+        </parameter>
+        <parameter id="16034" name="PosLimitOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16035" name="LocalHomeSwitchAdr" description="">
+            <value />
+        </parameter>
+        <parameter id="16036" name="LocalHomeSwitchOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16037" name="LocalZeroSignalAdr" description="">
+            <value />
+        </parameter>
+        <parameter id="16038" name="LocalZeroSignalOffset" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="16039" name="LocalSignalType" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="17000" name="PulsePositivePinVarName" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="17001" name="PulseNegativePinVarName" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="17002" name="NegLimitValue" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="17003" name="PosLimitValue" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="17004" name="LocalHomeValue" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="17005" name="LocalZeroValue" description="" download="false">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="100121" name="AxisNumber" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</axis>

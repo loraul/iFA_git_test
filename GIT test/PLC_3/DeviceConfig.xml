@@ -1,0 +1,165 @@
+<!--NodeCRC64:13082244725925460564, FileCRC64:13082244725925460564-->
+<device name="PLC_3">
+    <deviceIdentification>6e23c80ea042e442d3049bf220b7d5cb</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="144115188075855882" name="Falt Confirmation Mode" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075855997" name="FsoeMasterAddress" description="">
+            <value>
+                <simpleValue value="1001" />
+            </value>
+        </parameter>
+        <parameter id="144115188075863872" name="EtherCATCycleTimeDefault" description="">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="144115188075863873" name="EtherCATCycleTimeUnit" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865880" name="CPURate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875872" name="CoreCount" description="" download="false">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875882" name="Core0Id" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875883" name="Core0Rate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783818" name="Unique Node ID" description="">
+            <value>
+                <structValue>
+                    <value member="NodeId">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="Time">
+                        <simpleValue value="56846233" />
+                    </value>
+                    <value member="Date">
+                        <simpleValue value="19961" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="216172782113783819" name="Edit Signature" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="216172782113783820" name="Edit DateTime" description="">
+            <value>
+                <structValue>
+                    <value member="Time">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="Date">
+                        <simpleValue value="0" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="216172782113783829" name="DeviceInfo" description="">
+            <value>
+                <structValue>
+                    <value member="VendorID">
+                        <simpleValue value="1660" />
+                    </value>
+                    <value member="ProdType">
+                        <simpleValue value="14" />
+                    </value>
+                    <value member="ProdCode">
+                        <simpleValue value="2069" />
+                    </value>
+                    <value member="MajRev">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="MinRev">
+                        <simpleValue value="1" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="216172782113783868" name="IsManual" description="" download="false">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711754" name="CIPMaxLinkCount" description="" download="false">
+            <value>
+                <simpleValue value="254" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711755" name="CIPRPIMinValue" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711764" name="CIPVendCode" description="">
+            <value>
+                <simpleValue value="1660" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711765" name="CIPVendName" description="">
+            <value>
+                <simpleValue value="'Inovance'" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711766" name="CIPProdType" description="">
+            <value>
+                <simpleValue value="14" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711767" name="CIPProdCode" description="">
+            <value>
+                <simpleValue value="2069" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711768" name="CIPProductMajRev" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711769" name="CIPProductMinRev" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711770" name="CIPProdName" description="">
+            <value>
+                <simpleValue value="'EVO1000EF-F52'" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711771" name="CIPClass3MaxByteSize" description="">
+            <value>
+                <simpleValue value="1400" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711772" name="CIPUCMMMaxByteSize" description="">
+            <value>
+                <simpleValue value="400" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>

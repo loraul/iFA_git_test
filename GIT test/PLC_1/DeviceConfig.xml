@@ -1,0 +1,432 @@
+<!--NodeCRC64:13194858926246830594, FileCRC64:13194858926246830594-->
+<device name="PLC_1">
+    <deviceIdentification>c52410ba13a43c929d75fc0db56ce248</deviceIdentification>
+    <attribute>
+        <channelBindVarAddr>False</channelBindVarAddr>
+        <Disabled>False</Disabled>
+    </attribute>
+    <busTask />
+    <parameters>
+        <parameter id="72057594037936744" name="diagId" description="" download="false">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865873" name="CPUIPSetStruct" description="">
+            <value>
+                <structValue>
+                    <value member="IpSetUse">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="IpAddress">
+                        <simpleValue value="16820416" />
+                    </value>
+                    <value member="IpMask">
+                        <simpleValue value="16777215" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="144115188075865874" name="CPURetainSet" description="">
+            <value>
+                <structValue>
+                    <value member="RetainSetUse">
+                        <simpleValue value="1" />
+                    </value>
+                    <value member="RetainStore">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="RetainSetBk">
+                        <simpleValue value="0" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="144115188075865875" name="CPUClock" description="">
+            <value>
+                <simpleValue value="''" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865876" name="UpdataType" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865877" name="UpdataIdc" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865878" name="CPUErrorModeStruct" description="">
+            <value>
+                <structValue>
+                    <value member="ErrModeofSDCard">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="ErrModeofFlash">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="ErrModeofConfiguration">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="ErrModeofSystem">
+                        <simpleValue value="0" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="144115188075865879" name="MemRate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075865880" name="CPURate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875872" name="CoreCount" description="">
+            <value>
+                <simpleValue value="4" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875882" name="Core0Id" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875883" name="Core0Rate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875892" name="Core1Id" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875893" name="Core1Rate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875902" name="Core2Id" description="">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875903" name="Core2Rate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875912" name="Core3Id" description="">
+            <value>
+                <simpleValue value="3" />
+            </value>
+        </parameter>
+        <parameter id="144115188075875913" name="Core3Rate" description="">
+            <value>
+                <simpleValue value="0.0" />
+            </value>
+        </parameter>
+        <parameter id="144115188075955872" name="CPUSoftVersionStruct" description="">
+            <value>
+                <structValue>
+                    <value member="VerBaseDev_C">
+                        <simpleValue value="0" />
+                    </value>
+                    <value member="VerBaseDev_Logic">
+                        <simpleValue value="0" />
+                    </value>
+                </structValue>
+            </value>
+        </parameter>
+        <parameter id="288230376151711754" name="OpcUaServerEnabled" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711756" name="OpcUaActivedPortsNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711764" name="OpcUaPortNum" description="">
+            <value>
+                <simpleValue value="4840" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711765" name="OpcUaMaxSessionTimeout" description="">
+            <value>
+                <simpleValue value="30" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711766" name="OpcUaMaxSessionNum" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711767" name="OpcUaMinSamplingInterval" description="">
+            <value>
+                <simpleValue value="208" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711768" name="OpcUaMinPublishingInterval" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711769" name="OpcUaMaxRegisteredNodeNum" description="" download="false">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711770" name="OpcUaMaxSubscriptionNumPerSession" description="">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711771" name="OpcUaMaxMoniterNumPerSubscription" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711774" name="OpcUaSecurityPolicy" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711775" name="OpcUaGuestAuthEnabled" description="">
+            <value>
+                <simpleValue value="TRUE" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711776" name="OpcUaUserPwdAuthEnabled" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711777" name="OpcUaUserNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711778" name="OpcUaMinSamplingIntervalStorage" description="">
+            <value>
+                <simpleValue value="1000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151711784" name="OpcUaDiagnoseOptions" description="">
+            <value>
+                <simpleValue value="6" />
+            </value>
+        </parameter>
+        <parameter id="288230376151712244" name="OpcUaActivedPortId" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716744" name="OpcUaMaxSessionNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716745" name="OpcUaMinPublishingIntervalLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="200" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716746" name="OpcUaMaxRegisteredNodeNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="2000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716747" name="OpcUaMaxSubscriptionNumPerSessionLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="20" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716748" name="OpcUaMaxMoniterNumPerSubscriptionUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="5000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716749" name="OpcUaMaxSessionTimeoutUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="600000" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716750" name="OpcUaMaxSessionTimeoutLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716751" name="OpcUaPortNumUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="49151" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716752" name="OpcUaPortNumLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="1024" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716753" name="OpcUaValicMinSamplingIntervals" description="" download="false">
+            <value>
+                <simpleValue value="'100,250,500,1000,5000,10000'" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716754" name="OpcUaMaxMoniterNumPerSubscriptionLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="100" />
+            </value>
+        </parameter>
+        <parameter id="288230376151716755" name="OpcUaSupportedSecurityPolicy" description="" download="false">
+            <value>
+                <simpleValue value="103" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639690" name="WebServerEnabled" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639691" name="WebServerSupportHttpsOnly" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639692" name="WebServerActivedPortsNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639700" name="WebServerAutoUpdateEnabled" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639701" name="WebServerUpdateInterval" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639710" name="WebServerUserNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639711" name="WebServerEnableAuthors" description="" download="false">
+            <value>
+                <simpleValue value="126" />
+            </value>
+        </parameter>
+        <parameter id="360287970189639720" name="WebServerVariableNum" description="">
+            <value>
+                <simpleValue value="0" />
+            </value>
+        </parameter>
+        <parameter id="360287970189644680" name="WebServerUpdateIntervalUpperLimit" description="" download="false">
+            <value>
+                <simpleValue value="10" />
+            </value>
+        </parameter>
+        <parameter id="360287970189644681" name="WebServerUpdateIntervalLowerLimit" description="" download="false">
+            <value>
+                <simpleValue value="2" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567626" name="EIPMaxLinkCount" description="" download="false">
+            <value>
+                <simpleValue value="32" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567627" name="EIPRPIMinValue" description="" download="false">
+            <value>
+                <simpleValue value="5" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567636" name="EIPVendCode" description="">
+            <value>
+                <simpleValue value="1660" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567637" name="EIPVendName" description="">
+            <value>
+                <simpleValue value="'Inovance'" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567638" name="EIPProdType" description="">
+            <value>
+                <simpleValue value="14" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567639" name="EIPProdCode" description="">
+            <value>
+                <simpleValue value="1809" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567640" name="EIPProductMajRev" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567641" name="EIPProductMinRev" description="">
+            <value>
+                <simpleValue value="1" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567642" name="EIPProdName" description="">
+            <value>
+                <simpleValue value="'EVO523-0808TN(TP)'" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567643" name="EIPClass3MaxByteSize" description="">
+            <value>
+                <simpleValue value="1400" />
+            </value>
+        </parameter>
+        <parameter id="432345564227567644" name="EIPUCMMMaxByteSize" description="">
+            <value>
+                <simpleValue value="400" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495562" name="SFTPEnabled" description="">
+            <value>
+                <simpleValue value="FALSE" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495563" name="LocalUserName" description="">
+            <value>
+                <simpleValue value="'update'" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495564" name="LocalUserPassword" description="">
+            <value>
+                <simpleValue value="'MTIzNDU2'" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495565" name="SDKardUserName" description="">
+            <value>
+                <simpleValue value="'inovance'" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495566" name="SDKardUserPassword" description="">
+            <value>
+                <simpleValue value="'YWRtaW4='" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495567" name="LocalUserDefaultPassword" description="" download="false">
+            <value>
+                <simpleValue value="'MTIzNDU2'" />
+            </value>
+        </parameter>
+        <parameter id="504403158265495568" name="SDKardUserDefaultPassword" description="" download="false">
+            <value>
+                <simpleValue value="'YWRtaW4='" />
+            </value>
+        </parameter>
+    </parameters>
+    <mappings />
+</device>
