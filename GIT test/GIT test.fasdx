@@ -197,6 +197,20 @@
                 "path": "GIT test\\PLC_1\\Programs\\Main",
                 "mappingFilePath": "GIT test\\PLC_1\\Programs\\Main.st",
                 "subItems": []
+              },
+              {
+                "name": "Main_1",
+                "description": " (PRG)",
+                "businessId": 2,
+                "deviceName": "PLC_1",
+                "deviceMd5Code": "c52410ba13a43c929d75fc0db56ce248",
+                "deviceAdditionData": {
+                  "order": -1
+                },
+                "type": "Logic_PRG",
+                "path": "GIT test\\PLC_1\\Programs\\Main_1",
+                "mappingFilePath": "GIT test\\PLC_1\\Programs\\Main_1.st",
+                "subItems": []
               }
             ]
           },

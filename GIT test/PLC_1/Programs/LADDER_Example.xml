@@ -1,4 +1,4 @@
-<!--NodeCRC64:12499651100620411279, FileCRC64:12499651100620411279-->
+<!--NodeCRC64:2217894332844555410, FileCRC64:2217894332844555410-->
 <program name="LADDER_Example">
     <interface>
         <localVars>
@@ -80,11 +80,18 @@
                     </data>
                 </addData>
             </vendorElement>
-            <coil localId="6">
+            <contact localId="6">
                 <position x="0" y="0" />
                 <connectionPointIn>
                     <connection refLocalId="4" />
                     <connection refLocalId="5" />
+                </connectionPointIn>
+                <variable>M2</variable>
+            </contact>
+            <coil localId="7">
+                <position x="0" y="0" />
+                <connectionPointIn>
+                    <connection refLocalId="6" />
                 </connectionPointIn>
                 <connectionPointOut />
                 <variable>M2</variable>
